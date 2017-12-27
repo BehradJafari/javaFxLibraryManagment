@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="secondAnchor" prefHeight="795.0" prefWidth="1023.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.BackBookController">
+   <children>
+      <JFXRadioButton fx:id="book1_rdi" layoutX="443.0" layoutY="338.0" text="RadioButton1" />
+      <JFXRadioButton fx:id="book2_rdi" layoutX="443.0" layoutY="398.0" text="RadioButton2" />
+      <JFXRadioButton fx:id="book3_rdi" layoutX="443.0" layoutY="468.0" text="RadioButton3" />
+      <Text fx:id="member_txt" layoutX="34.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <JFXButton layoutX="479.0" layoutY="636.0" onAction="#goToConfirmBackBook" text="ثبت" />
+   </children>
+</AnchorPane>

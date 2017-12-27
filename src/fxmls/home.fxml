@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="883.0" prefWidth="1246.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.homeController">
+    <children>
+        <AnchorPane layoutY="-1.0" prefHeight="883.0" prefWidth="223.0" style="-fx-background-color: #d9d9d9;">
+            <children>
+                <JFXButton layoutY="100.0" onAction="#goToSearchUser" prefHeight="41.0" prefWidth="221.0" text="جستجوی کاربر" textFill="#655959">
+                    <font>
+                        <Font name="System Italic" size="16.0" />
+                    </font>
+                </JFXButton>
+                <ImageView fitHeight="41.0" fitWidth="65.0" layoutX="6.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../files/searchIcon.png" />
+                    </image>
+                </ImageView>
+                <JFXButton layoutX="2.0" layoutY="189.0" onAction="#goToSearchBook" prefHeight="41.0" prefWidth="221.0" text="جستجوی کتاب" textFill="#655959">
+                    <font>
+                        <Font name="System Italic" size="16.0" />
+                    </font>
+                </JFXButton>
+                <ImageView fitHeight="41.0" fitWidth="65.0" layoutX="14.0" layoutY="191.0" opacity="0.29" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../files/2cf7c5ba-bbc3-4a1a-b097-168476d0217f-Glamouros-logo-design-01-1.png" />
+                    </image>
+                </ImageView>
+                <JFXButton layoutX="2.0" layoutY="251.0" onAction="#goToNewUser" prefHeight="41.0" prefWidth="221.0" text="عضو جدید" textFill="#655959">
+                    <font>
+                        <Font name="System Italic" size="16.0" />
+                    </font>
+                </JFXButton>
+                <ImageView fitHeight="41.0" fitWidth="41.0" layoutX="14.0" layoutY="253.0" opacity="0.29" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../files/headphones.png" />
+                    </image>
+                </ImageView>
+                <JFXButton layoutX="2.0" layoutY="327.0" onAction="#gotToGetBook" prefHeight="41.0" prefWidth="221.0" text="امانت گرفتن" textFill="#655959">
+                    <font>
+                        <Font name="System Italic" size="16.0" />
+                    </font>
+                </JFXButton>
+                <ImageView fitHeight="41.0" fitWidth="65.0" layoutX="14.0" layoutY="329.0" opacity="0.29" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../files/time.png" />
+                    </image>
+                </ImageView>
+                <JFXButton layoutX="6.0" layoutY="399.0" onAction="#goToReturnBook" prefHeight="41.0" prefWidth="214.0" text="پس دادن" textFill="#655959">
+                    <font>
+                        <Font name="System Italic" size="16.0" />
+                    </font>
+                </JFXButton>
+                <ImageView fitHeight="41.0" fitWidth="65.0" layoutX="14.0" layoutY="401.0" opacity="0.29" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../files/compass.png" />
+                    </image>
+                </ImageView>
+                <JFXButton layoutX="7.0" layoutY="471.0" onAction="#goToNewBook" prefHeight="41.0" prefWidth="207.0" text="کتاب جدید" textFill="#655959">
+                    <font>
+                        <Font name="System Italic" size="16.0" />
+                    </font>
+                </JFXButton>
+                <ImageView fitHeight="41.0" fitWidth="65.0" layoutX="14.0" layoutY="471.0" opacity="0.29" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../files/antenna-signal.png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="90.0" fitWidth="106.0" layoutX="60.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../files/2cf7c5ba-bbc3-4a1a-b097-168476d0217f-Glamouros-logo-design-01-1.png" />
+                    </image>
+                </ImageView>
+            </children>
+        </AnchorPane>
+      <AnchorPane fx:id="secondAnchor" layoutX="224.0" prefHeight="795.0" prefWidth="1023.0" style="-fx-background-color: rgba(96,136,137,0.53);" />
+    </children>
+</AnchorPane>

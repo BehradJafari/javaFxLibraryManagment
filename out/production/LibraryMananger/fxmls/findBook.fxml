@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="secondAnchor" prefHeight="795.0" prefWidth="1023.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.findBook">
+   <children>
+      <JFXTextField fx:id="findBook_fld" alignment="CENTER" focusColor="#40a854" labelFloat="true" layoutX="365.0" layoutY="107.0" opacity="0.83" prefHeight="29.0" prefWidth="269.0" promptText="جستجوی کتاب">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </JFXTextField>
+      <JFXListView fx:id="listViewBook" layoutX="157.0" layoutY="270.0" onMouseClicked="#goToSetBook" prefHeight="400.0" prefWidth="686.0" />
+      <JFXButton layoutX="479.0" layoutY="197.0" onAction="#goToSearchBook" style="-fx-background-color: rgba(72,91,103,0.58);" text="جستجو" />
+   </children>
+</AnchorPane>

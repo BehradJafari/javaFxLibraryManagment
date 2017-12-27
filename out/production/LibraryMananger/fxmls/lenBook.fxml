@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="secondAnchor" prefHeight="795.0" prefWidth="1023.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.lenBookController">
+   <children>
+      <JFXTextField fx:id="findBook_fld" alignment="CENTER" focusColor="#40a854" labelFloat="true" layoutX="366.0" layoutY="177.0" opacity="0.83" prefHeight="29.0" prefWidth="269.0" promptText="جستجوی کتاب">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </JFXTextField>
+      <JFXListView fx:id="listViewBook" layoutX="157.0" layoutY="333.0" onMouseClicked="#goToSetBook" prefHeight="87.0" prefWidth="686.0" />
+      <JFXButton layoutX="480.0" layoutY="259.0" onAction="#goToSearchBook" style="-fx-background-color: rgba(72,91,103,0.58);" text="جستجو" />
+      <Text fx:id="member_txt" layoutX="129.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Text>
+      <JFXButton layoutX="480.0" layoutY="644.0" onAction="#goToLent" style="-fx-background-color: rgba(72,91,103,0.58);" text="ثبت نهایی" />
+      <Text fx:id="book_txt" layoutX="129.0" layoutY="529.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

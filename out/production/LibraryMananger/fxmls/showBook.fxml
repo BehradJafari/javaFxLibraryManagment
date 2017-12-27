@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="secondAnchor" prefHeight="795.0" prefWidth="1023.0" style="-fx-background-color: #FFFFF;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.showBookController">
+   <children>
+      <JFXButton layoutX="364.0" layoutY="398.0" onAction="#goToDeleteBook" text="حذف" />
+      <JFXButton layoutX="597.0" layoutY="398.0" onAction="#goToEditBook" text="ویرایش" />
+      <Text fx:id="text_area" layoutX="199.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

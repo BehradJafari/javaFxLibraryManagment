@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="secondAnchor" prefHeight="795.0" prefWidth="1023.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.findMemberForBack">
+   <children>
+      <JFXTextField fx:id="searachMember" alignment="CENTER" focusColor="#40a854" labelFloat="true" layoutX="365.0" layoutY="107.0" opacity="0.83" prefHeight="29.0" prefWidth="269.0" promptText="جسنجوی عضو شناسه">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </JFXTextField>
+      <JFXListView fx:id="listViewMember" layoutX="157.0" layoutY="210.0" onMouseClicked="#goToShowMember" prefHeight="126.0" prefWidth="686.0" />
+      <JFXTextField fx:id="searachMemberName" alignment="CENTER" focusColor="#40a854" labelFloat="true" layoutX="386.0" layoutY="415.0" opacity="0.83" prefHeight="29.0" prefWidth="269.0" promptText="جسنجوی عضو نام">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </JFXTextField>
+      <JFXListView fx:id="listViewMemberName" layoutX="169.0" layoutY="515.0" onMouseClicked="#goToShowMember1" prefHeight="126.0" prefWidth="686.0" />
+      <JFXButton layoutX="468.0" layoutY="157.0" onAction="#goToSearchId" text="جستجو" />
+      <JFXButton layoutX="481.0" layoutY="468.0" onAction="#goToSearchName" text="جستجو" />
+   </children>
+</AnchorPane>

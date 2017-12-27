@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="secondAnchor" prefHeight="795.0" prefWidth="1023.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.confirmBook">
+   <children>
+      <JFXTextField fx:id="bookName_fld" alignment="TOP_CENTER" labelFloat="true" layoutX="327.0" layoutY="95.0" prefHeight="29.0" prefWidth="353.0" promptText="نام کتاب" />
+      <JFXTextField fx:id="pubName_fld" alignment="TOP_CENTER" layoutX="329.0" layoutY="198.0" prefHeight="29.0" prefWidth="353.0" promptText="ناشر" />
+      <JFXTextField fx:id="authorName_fld" alignment="TOP_CENTER" layoutX="329.0" layoutY="319.0" prefHeight="29.0" prefWidth="353.0" promptText="نویسنده" />
+      <JFXButton fx:id="confirmBook_btn" layoutX="479.0" layoutY="601.0" onAction="#goToConfirm" style="-fx-background-color: rgba(86,24,38,0.57); -fx-background-radius: 25cm;" text="ثبت کتاب" textAlignment="CENTER" />
+      <JFXButton fx:id="editBook_btn" layoutX="493.0" layoutY="676.0" onAction="#goToEdit" style="-fx-background-color: rgba(86,24,38,0.57); -fx-background-radius: 25cm;" text="تغییر" textAlignment="CENTER" />
+   </children>
+</AnchorPane>
